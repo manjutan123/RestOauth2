@@ -13,7 +13,7 @@ public class Testauth {
 	public void testoauth() {
 		
 		//save token generated in variable
-		String access_token = "6f19ed1fbe263737d4208ff6aed1b78059d1d1f9";
+		String access_token = "";
 
 		RestAssured.baseURI = "https://api.github.com";
 	
