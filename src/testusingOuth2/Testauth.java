@@ -9,7 +9,8 @@ import static com.jayway.restassured.RestAssured.given;
 
 public static void main(String args[])
 {
-		
+	       //create github account and generate token from https://github.com/settings/tokens
+
 		//save token generated in variable
 		String access_token = "";
 
