@@ -7,10 +7,8 @@ import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 import static com.jayway.restassured.RestAssured.given;
 
-public class Testauth {
-
-	@Test()
-	public void testoauth() {
+public static void main(String args[])
+{
 		
 		//save token generated in variable
 		String access_token = "";
